@@ -10,17 +10,17 @@ Social Network OTUS - это учебный проект, построенный
 
 Для запуска проекта на локальной машине необходимо:
 
+- **Git**
 - **Docker** и **Docker Compose**
 
 ## Запуск проекта локально
 
 1. Склонируйте репозиторий проекта:
    ```bash
-   git clone <URL репозитория>
-   cd <название папки проекта>
+   git clone git@github.com:Kyadmitry/social-network-otus.git
    ```
 
-2. Запустите проект с использованием Docker Compose:
+2. Запустите проект из корня проекта (ветка master) с использованием Docker Compose:
    ```bash
    docker-compose up --build
    ```
